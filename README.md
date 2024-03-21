@@ -15,6 +15,8 @@ Baselinenä käytän pelkkää XGBoost puhdistettuun dataan.
 Koska datasetti on pieni ja en vielä ole saanut JoDa repon testiaineiston hintoja, toteutin train test splitin 10% testiaineistolla. 
 Sovitettua mallia verrattiin tähän testiaineistoon ja tämän hetkiset tulokset siitä alla.
 
+TODO: XGBoost baseline hyperparametrien optimointi omaan skriptiin.
+
 
 ![XGBoost MAE tavoitteella](kuvat/output.png)
 
