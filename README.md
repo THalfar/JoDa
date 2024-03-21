@@ -25,7 +25,7 @@ Sovitettua mallia verrattiin tähän testiaineistoon ja tämän hetkiset tulokse
 | RMSLE                 | 0.1286  |
 | Parhaan mallin R²-arvo| 0.9269  |
 
-![XGBoost MSE tavoitteella](kuvat/output_2.png)
+![XGBoost MSE tavoitteella](kuvat/output2.png)
 
 
 | Mittari               | Arvo    |
