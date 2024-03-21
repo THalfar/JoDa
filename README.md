@@ -15,19 +15,22 @@ Baselinenä käytän pelkkää XGBoost puhdistettuun dataan.
 Koska datasetti on pieni ja en vielä ole saanut JoDa repon testiaineiston hintoja, toteutin train test splitin 10% testiaineistolla. 
 Sovitettua mallia verrattiin tähän testiaineistoon ja tämän hetkiset tulokset siitä alla.
 
-![XGBoost MAE tavoitteella](/output.png)
+
+![XGBoost MAE tavoitteella](kuvat/output.png)
 
 | Mittari               | Arvo    |
 |-----------------------|---------|
-| Mean squared error    | 2558.37 |
-| Mean absolute error   | 29.52   |
-| Parhaan mallin R²-arvo| 0.8902  |
+| Mean squared error    | 1851.54 |
+| Mean absolute error   | 25.80   |
+| RMSLE                 | 0.1286  |
+| Parhaan mallin R²-arvo| 0.9269  |
 
-![XGBoost MSE tavoitteella](/output_2.png)
+![XGBoost MSE tavoitteella](kuvat/output_2.png)
 
 
 | Mittari               | Arvo    |
 |-----------------------|---------|
-| Mean squared error    | 2236.98 |
-| Mean absolute error   | 29.79   |
-| Parhaan mallin R²-arvo| 0.9040  |
+| Mean squared error    | 2199.94 |
+| Mean absolute error   | 29.09   |
+| RMSLE                 | 0.1393  |
+| Parhaan mallin R²-arvo| 0.9132  |
